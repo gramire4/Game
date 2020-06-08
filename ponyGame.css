@@ -1,0 +1,149 @@
+body{
+	background-color: #000;
+}
+.container{
+	width: 445px;
+	height: 727px;
+	background-color: #5f61ec;
+	position: absolute;
+	z-index: 0;
+	left: 35%;
+}
+#box{
+	width: 445px;
+	height: 727px;
+	background-image: url("grabandwinbg.png");
+	background-size: cover;
+	z-index: 3;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.pony{
+	width: 151px;
+	height: 201px;
+	position: absolute;
+	top: 282px;
+	background-image: url("pony.png");
+	background-size: cover;
+	z-index: 1;
+}
+
+.kookabarra{
+	top: 510px;
+	left: 27%;
+	background-image: url("kookabarra.jpeg");
+	z-index: 5;
+	width: 171px;
+}
+
+#crane{
+	position: absolute;
+    width: 71px;
+	height: 137px;
+    position: absolute;
+	left: 50px;
+	top: 111px;
+	background-image: url("claw.png");
+	z-index: 1;
+}
+
+#right-arrow, #left-arrow, #lift{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00ff00;	
+    position: absolute;
+    z-index: 5;
+    top: 515px;
+    line-height: 4;
+	text-align: center;
+	cursor: pointer;
+}
+
+#right-arrow{
+	left: 27px;
+}
+
+#left-arrow{
+	left: 110px;	
+}
+
+#right-arrow:hover,
+#left-arrow:hover{
+	background-color: #005500;	
+	color: #fff;
+}
+
+#lift{
+	background-color: #ff0000;		
+	left: 67px;
+	top: 590px;	
+}
+
+#lift:hover{
+	background-color: #550000;
+	color: #fff;
+}
+
+.pony-1{
+	left: 10px;
+	-moz-transform:scale(1, -1)rotate(0deg);
+    -o-transform:scale(1, -1)rotate(0deg);
+    -webkit-transform:scale(1, -1)rotate(0deg);
+    transform:scale(1, -1)rotate(0deg);
+}
+
+
+.pony-2{
+	left: 80px;
+	top: 238px;
+	-moz-transform:scale(-1, 1)rotate(0deg);
+    -o-transform:scale(-1, 1)rotate(0deg);
+    -webkit-transform:scale(-1, 1)rotate(0deg);
+    transform:scale(-1, 1)rotate(0deg);
+}
+
+
+.pony-3{
+	left: 120px;	
+	top: 318px;
+	-moz-transform:scale(-1, 1)rotate(90deg);
+    -o-transform:scale(-1, 1)rotate(90deg);
+    -webkit-transform:scale(-1, 1)rotate(90deg);
+    transform:scale(-1, 1)rotate(90deg);
+}
+
+
+.pony-4{
+	left: 177px;	
+	top: 208px;
+	-moz-transform:scale(-1, 1)rotate(45deg);
+    -o-transform:scale(-1, 1)rotate(45deg);
+    -webkit-transform:scale(-1, 1)rotate(45deg);
+    transform:scale(-1, 1)rotate(45deg);
+}
+
+.pony-5{
+	left: 226px;
+	top: 255px;
+}
+
+.pony-6{
+	left: 247px;	
+	top: 324px;
+	-moz-transform:scale(-1, -1)rotate(45deg);
+    -o-transform:scale(-1, -1)rotate(45deg);
+    -webkit-transform:scale(-1, -1)rotate(45deg);
+    transform:scale(-1, -1)rotate(45deg);
+}
+
+#congrats{
+	position: absolute;
+	top: 144px;
+	font-size: 64px;
+	z-index: 6;
+	left: 13%;
+	color: aliceblue;
+}
